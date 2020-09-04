@@ -106,8 +106,10 @@ def loadBooksTags(catalog, booktagsfile):
 
 def booksSize(catalog):
     """Numero de libros leido
+    1
     """
     return model.booksSize(catalog)
+
 
 
 def authorsSize(catalog):
